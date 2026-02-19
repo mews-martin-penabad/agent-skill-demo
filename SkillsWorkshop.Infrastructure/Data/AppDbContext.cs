@@ -9,4 +9,5 @@ public class AppDbContext : DbContext
 
     public DbSet<CardPayment> CardPayments => Set<CardPayment>();
     public DbSet<Refund> Refunds => Set<Refund>();
+    public DbSet<ApplePay> ApplePays => Set<ApplePay>();
 }
