@@ -77,7 +77,7 @@ When generating boilerplate for a given entity (e.g. `Refund`):
 5. **Service Implementation** — `SkillsWorkshop.Application/Services/{Entity}Service.cs` — maps between domain and DTOs
 6. **Repository Implementation** — `SkillsWorkshop.Infrastructure/Repositories/{Entity}Repository.cs` — EF Core implementation
 7. **Controller** — `SkillsWorkshop.API/Controllers/{Entity}Controller.cs` — RESTful endpoints: GET all, GET by id, POST, PUT, DELETE
-8. **Unit Tests** — `SkillsWorkshop.Tests/{Entity}ServiceTests.cs` — xUnit + Moq + FluentAssertions, testing all service methods
+
 
 Generate all files in one response, clearly labelled with file paths.
 

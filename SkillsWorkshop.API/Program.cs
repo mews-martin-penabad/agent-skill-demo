@@ -17,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<ICardPaymentService, CardPaymentService>();
 builder.Services.AddScoped<ICardPaymentRepository, CardPaymentRepository>();
+builder.Services.AddScoped<IRefundService, RefundService>();
+builder.Services.AddScoped<IRefundRepository, RefundRepository>();
 
 var app = builder.Build();
 
