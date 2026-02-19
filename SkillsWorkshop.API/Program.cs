@@ -19,6 +19,8 @@ builder.Services.AddScoped<ICardPaymentService, CardPaymentService>();
 builder.Services.AddScoped<ICardPaymentRepository, CardPaymentRepository>();
 builder.Services.AddScoped<IRefundService, RefundService>();
 builder.Services.AddScoped<IRefundRepository, RefundRepository>();
+builder.Services.AddScoped<IApplePayService, ApplePayService>();
+builder.Services.AddScoped<IApplePayRepository, ApplePayRepository>();
 
 var app = builder.Build();
 
